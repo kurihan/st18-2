@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>a태그와관련된가상선택자</title>
+  <style>
+    /* body{color: #f8c;} */
+    a{text-decoration: none; color: #333;}
+    a:link, a:visited, a:active{color: #333; text-decoration: none;} 
+    a:hover{color: #f00; text-decoration: underline; font-weight: bold;}
+
+    .hero{width: auto; height: 100vh;background-color: #ef6; text-align: center; font-size: 200px; font-family: "Noto Sans KR", sans-serif;}
+    .hero span{text-shadow: 10px 10px 0px rgba(255,0,0,1),
+      20px 20px 10px rgba(0,255,0,1), 30px 30px 20px rgba(0,0,255,1);}
+
+      .hero span:first-child{color: #ef6; text-shadow: 0 0 20px rgba(255,0,0,0.8);}
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="https://www.naver.com">menu1</a></li>
+    <li><a href="https://www.google.com">menu2</a></li>
+    <li><a href="https://www.daum.net">menu3</a></li>
+    <li><a href="https://www.nate.com">menu4</a></li>
+  </ul>
+  <p>lorem ipsum dolor sit.</p>
+  <div>lorem, ipsum.</div>
+
+  <div class="hero">
+    <span>Main</span>
+    <span>Slogan</span>
+  </div>
+</body>
+</html>
