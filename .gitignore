@@ -1,5 +1,33 @@
-*.pptx
 *.psd
+*.pptx
 *.ai
+*.zip
 참고문서/
-연습/
+테스트/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Logs
+*.log
+
+cafe24/
